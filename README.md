@@ -34,13 +34,12 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 
 ## Experience
 
-#### ***Internship*** - [*Mathnasium*](https://www.mathnasium.com/math-centers/chatham) - *March 2025 - Present*
+#### ***SWE Intern*** - [*Mathnasium*](https://www.mathnasium.com/math-centers/chatham) - *March 2025 - August 2025*
 
 - Spearheaded a project developing a full-stack Javascript/Node.js application that generates emails for parents of students at a Math Tutoring Center I work for.
 - Effectively employs a BNF Grammar, that is used to generate syntactically valid text.
-- Working on a Node.js backend that’ll retrieve student information, further reducing required user input
-- Currently in the process of being deployed
-- Testing has shown it'll save *37.5 hours* across 5 centers.
+- Was working on a Node.js backend that’ll retrieve student information, further reducing required user input
+- Currently being used to send 110-150 emails per day, saving 5 centers 30-40 hours a week.
 
 <br>
 
@@ -49,15 +48,21 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 ## Skills
 
 - **Languages:** C, C++, Java, Javascript, Python, SQL (MySQL), MATLAB, LATEX
-- **Software Tools:** KiCAD, FreeCAD, PlatformIO, Excel, MySQL, Eclipse
+- **Software Tools:** KiCAD, FreeCAD, PlatformIO, Excel, Git
 - **Build Tools/Debuggers:** Apache Maven, Apache Ant, CMake, Make, MSVC & GCC, GDB, Valgrind
-- **Libraries:** NumPy, PyTorch, Scikit Learn, Matplotlib, Gnuplot, LWGJL
+- **Libraries:** NumPy, PyTorch, Scikit Learn, Matplotlib, Gnuplot, LWGJL (GLFW)
 
 <br>
 
 ---
 
 ## Projects
+
+#### ***Sound Based Triangulation*** - *July 2025 - Present*
+
+- Currently working on a short distance sound based triangulation system.
+- Designed a custom PCB using KiCAD to amplify, filter, and sample incoming signals.
+- Signal Processing will be performed on an ESP32 S3 MCU.
 
 #### ***NeuralNet*** - [(*Github*)](https://github.com/avr34/NeuralNet) - *Oct 2024 - Feb 2025*
 
@@ -72,9 +77,3 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 - Accelerometer based system that detects hard braking and alerts surrounding drivers accordingly using hazard lights.
 - Utilized an Arduino Nano Microcontroller board to handle IO.
 - Presented in NJIT’s First Year Design showcase.
-
-
-#### ***CRT Oscilloscope Repair*** - *Nov 2024 - Feb 2025*
-
-- Bought and rebuilt a BK Precision Model 1461, Single Channel Oscilloscope from Craigslist.
-- Came with several blown capacitors and one shorted resistor affecting the beam's sweep speed.

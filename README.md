@@ -43,6 +43,9 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 
 <br>
 
+#### ***Undergraduate Research Assistant*** - [*Assisting Prof. Tao Han*](https://tao-han-njit.netlify.app) - *October 2025 - Present*
+- Assisting in the development of a Microsoft Hololens application, for CV based object detection.
+
 ---
 
 ## Skills

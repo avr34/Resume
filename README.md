@@ -1,6 +1,6 @@
 # Arnav Revankar
 
-## Sophomore Computer Engineer @ NJIT
+## Junior Computer Engineer @ NJIT
 
 ### [github.com/avr34](https://github.com/avr34) | [avr34@njit.edu](mailto:avr34@njit.edu) | [linkedin.com/in/avr33](https://www.linkedin.com/in/avr33/)
 
@@ -45,6 +45,8 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 
 #### ***Undergraduate Research Assistant*** - [*Assisting Prof. Tao Han*](https://tao-han-njit.netlify.app) - *October 2025 - Present*
 - Assisting in the development of a Microsoft Hololens application, for CV based object detection.
+
+<br>
 
 ---
 

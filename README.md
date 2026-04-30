@@ -8,7 +8,7 @@
 
 ## Summary
 
-Highly motivated Computer Engineering student with a strong passion for Embedded Systems, Data Science and Machine Learning. Seeking an internship/coop opportunity to apply my skills and gain experience with real world engineering. Proficient in C, C++, Java, and Python, as well as popular linear algebra and machine learning frameworks like NumPy, PyTorch, and Scikit Learn. Eager to contribute to innovative projects and gain hands-on experience in real world projects.
+Highly motivated Computer Engineering student with a strong passion for Embedded Systems. Seeking an internship/coop opportunity to apply my skills and gain experience with real world engineering.
 
 ---
 
@@ -19,7 +19,7 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 *Cumulative GPA: 3.65*
 
 - **Coursework**: Circuits & Systems 1 & 2, Microprocessors, Computer Architecture, Database System Design, Digital Design, and others.
-- **Activites**: NJIT Solar Car Club (Software Team)
+- **Activites**: IEEE-HKN Inductee, 2026 Hackathon Volunteer
 
 
 #### ***County College of Morris*** *(Sept 2022 - May 2023)*
@@ -47,10 +47,11 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 
 ## Skills
 
-- **Languages:** C, C++, Java, Javascript, Python, SQL (MySQL), MATLAB, LATEX
-- **Software Tools:** KiCAD, FreeCAD, PlatformIO, Excel, Git
-- **Build Tools/Debuggers:** Apache Maven, Apache Ant, CMake, Make, MSVC & GCC, GDB, Valgrind
-- **Libraries:** NumPy, PyTorch, Scikit Learn, Matplotlib, Gnuplot, LWGJL (GLFW)
+- **Languages:** C, C++, MATLAB, Java, Python, Go, SQL (MySQL), GNU Octave, \LaTeX, Javascript, VHDL
+- **Software Tools:** Linux/Unix, KiCAD, FreeCAD, STM32CubeMX \& IDE, PlatformIO, ESP-IDF, Git, Docker, Excel
+- **Build Tools/Debuggers:** Apache Maven, Apache Ant, CMake, Make, MSVC \& GCC, GDB, Valgrind
+- **Libraries:** STM32 HAL, FreeRTOS, NumPy, PyTorch, Scikit Learn, Matplotlib, Gnuplot
+- **Communication Protocols:** UART, I2C, SPI, CAN, USB 2.0, TCP and Socket programming in C/C++ and Go
 
 <br>
 
@@ -58,11 +59,25 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 
 ## Projects
 
-#### ***Sound Based Triangulation*** - *July 2025 - Present*
+#### ***SolarVision Autonomous Lawnmower*** - [(*Github*)](https://github.com/SolarVisionMower/SolarVision) - *Sept 2025 - Present*
 
-- Currently working on a short distance sound based triangulation system.
-- Designed a custom PCB using KiCAD to amplify, filter, and sample incoming signals.
-- Signal Processing will be performed on an ESP32 S3 MCU.
+- YOLO and LiDAR-based autonomous lawnmower, engineering capstone project. Still in progress
+- Designed a [custom 6-layer PCB](https://github.com/SolarVisionMower/SolarVision/blob/dev/PCBDesign/Hardware/STM32N6_Board/schematic.pdf) for STM32N6 MCU, with external SPI NOR Flash and SDRAM Memory through the FMC.
+- Trained a YOLOv8 Segmentation model on a custom dataset, and exported to C for the STM32N6 NPU, with the ST Edge AI Tool Suite.
+- Currently working on interfacing integrating all sub-systems.
+
+#### ***8-Channel Logic Analyzer*** - [(*Github*)](https://github.com/ragusauce4357/ECE692-Final-Project) - *Feb 2026 - Present*
+
+- USB Logic Analyzer built around an STM32F446, capable of sniffing upto 500kHz signals.
+- DMA data acquisition, and run-length encoded data transmission, to optimize byte usage on USB 2.0 FS.
+- UART, SPI, I2C, and CAN signal decoding via a custom Go backend
+- GUI with PyQt5 in Python
+
+#### ***BitSum Lecture Summarizer*** - [(*Github*)](https://github.com/avr34/ECE381-Final) - *Oct 2025 - Dec 2025*
+
+- Built a lecture summarizer tool, integrating Microsoft BitNet, OpenAI Whisper, and a custom feedforward network.
+- Transcribes and summarizes lectures on CPU, 2x faster than human comprehension on average.
+- Integrated with Docker to ensure reproducibility.
 
 #### ***NeuralNet*** - [(*Github*)](https://github.com/avr34/NeuralNet) - *Oct 2024 - Feb 2025*
 
@@ -70,10 +85,3 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 - A pet project to learn Machine Learning algorithms (minimal external libraries used).
 - Currently uses ReLU activation, more to be added soon.
 - Backpropagation using Stochastic Gradient Descent in Matrix form.
-
-
-#### ***Collision Avoidance System for Cars*** - *Sept 2023 - Jan 2024*
-
-- Accelerometer based system that detects hard braking and alerts surrounding drivers accordingly using hazard lights.
-- Utilized an Arduino Nano Microcontroller board to handle IO.
-- Presented in NJIT’s First Year Design showcase.

@@ -59,14 +59,14 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 
 ## Projects
 
-#### ***SolarVision Autonomous Lawnmower*** - [(*Github*)](https://github.com/SolarVisionMower/SolarVision) - *Sept 2025 - Present*
+#### ***SolarVision Autonomous Lawnmower*** - [(*Github*)](https://github.com/SolarVisionMower/SolarVision) - *Sept 2026 - May 2026*
 
 - YOLO and LiDAR-based autonomous lawnmower, engineering capstone project. Still in progress
 - Designed a [custom 6-layer PCB](https://github.com/SolarVisionMower/SolarVision/blob/dev/PCBDesign/Hardware/STM32N6_Board/schematic.pdf) for STM32N6 MCU, with external SPI NOR Flash and SDRAM Memory through the FMC.
 - Trained a YOLOv8 Segmentation model on a custom dataset, and exported to C for the STM32N6 NPU, with the ST Edge AI Tool Suite.
-- Currently working on interfacing integrating all sub-systems.
+- LiDAR data acquisition and path planning on an ESP32S3
 
-#### ***8-Channel Logic Analyzer*** - [(*Github*)](https://github.com/ragusauce4357/ECE692-Final-Project) - *Feb 2026 - Present*
+#### ***8-Channel Logic Analyzer*** - [(*Github*)](https://github.com/ragusauce4357/ECE692-Final-Project) - *Feb 2026 - May 2026*
 
 - USB Logic Analyzer built around an STM32F446, capable of sniffing upto 500kHz signals.
 - DMA data acquisition, and run-length encoded data transmission, to optimize byte usage on USB 2.0 FS.

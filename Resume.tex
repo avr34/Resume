@@ -108,15 +108,14 @@
 
 \section{Projects}
     \raggedright\begin{tabular}{lr}
-        \parbox[l]{3.65in}{{\bf{\large{SolarVision Autonomous Mower}}} \href{https://github.com/SolarVisionMower/SolarVision}{(\underline{Github})}} &
-        \parbox[r]{3.65in}{\raggedleft Sept 2025 - May 2025} \\
+        \parbox[l]{3.65in}{{\bf{\large{BitSum Lecture Summarizer}}} \href{https://github.com/avr34/ECE381-Final}{(\underline{GitHub})}} &
+        \parbox[r]{3.65in}{\raggedleft Oct 2025 - Dec 2025} \\
     \end{tabular}
     \begin{itemize} \vspace{-5pt}
         \setlength{\itemsep}{-2pt}
-        \item YOLO and LiDAR-based autonomous lawnmower, engineering capstone project. Still in progress
-        \item Designed a \href{https://github.com/SolarVisionMower/SolarVision/blob/dev/PCBDesign/Hardware/STM32N6_Board/schematic.pdf}{\underline{custom 6-layer PCB}} for STM32N6 MCU, with external SPI NOR Flash and SDRAM Memory through the FMC.
-        \item Trained a YOLOv8 Segmentation model on a custom dataset, and exported to C for the STM32N6 NPU, with the ST Edge AI Tool Suite.
-        \item LiDAR data acquisition and path planning on an ESP32S3
+        \item Built a lecture summarizer tool, integrating Microsoft BitNet, OpenAI Whisper, and a custom feedforward network.
+        \item Transcribes and summarizes lectures on CPU, 2x faster than human comprehension on average.
+        \item Integrated with Docker to ensure reproducibility.
     \end{itemize}
 
     \raggedright\begin{tabular}{lr}
@@ -132,25 +131,27 @@
     \end{itemize}
 
     \raggedright\begin{tabular}{lr}
-        \parbox[l]{3.65in}{{\bf{\large{BitSum Lecture Summarizer}}} \href{https://github.com/avr34/ECE381-Final}{(\underline{GitHub})}} &
-        \parbox[r]{3.65in}{\raggedleft Oct 2025 - Dec 2025} \\
+        \parbox[l]{3.65in}{{\bf{\large{SolarVision Autonomous Mower}}} \href{https://github.com/SolarVisionMower/SolarVision}{(\underline{Github})}} &
+        \parbox[r]{3.65in}{\raggedleft Sept 2025 - May 2025} \\
     \end{tabular}
     \begin{itemize} \vspace{-5pt}
         \setlength{\itemsep}{-2pt}
-        \item Built a lecture summarizer tool, integrating Microsoft BitNet, OpenAI Whisper, and a custom feedforward network.
-        \item Transcribes and summarizes lectures on CPU, 2x faster than human comprehension on average.
-        \item Integrated with Docker to ensure reproducibility.
+        \item YOLO and LiDAR-based autonomous lawnmower, engineering capstone project. Still in progress
+        \item Designed a \href{https://github.com/SolarVisionMower/SolarVision/blob/dev/PCBDesign/Hardware/STM32N6_Board/schematic.pdf}{\underline{custom 6-layer PCB}} for STM32N6 MCU, with external SPI NOR Flash and SDRAM Memory through the FMC.
+        \item Trained a YOLOv8 Segmentation model on a custom dataset, and exported to C for the STM32N6 NPU, with the ST Edge AI Tool Suite.
+        \item LiDAR data acquisition and path planning on an ESP32S3
     \end{itemize}
 
     \raggedright\begin{tabular}{lr}
-        \parbox[l]{3.65in}{{\bf{\large{NeuralNet}}} \href{https://github.com/avr34/NeuralNet}{(\underline{Github})}} &
-        \parbox[r]{3.65in}{\raggedleft Oct 2024 - Feb 2025} \\
+		\parbox[l]{3.65in}{{\bf{\large{ESP32 2nd Stage Bootloader}}}} & % \href{https://github.com/avr34/ECE381-Final}{(\underline{GitHub})}} &
+        \parbox[r]{3.65in}{\raggedleft May 2026 - Present} \\
     \end{tabular}
     \begin{itemize} \vspace{-5pt}
-        \setlength{\itemsep}{-2pt}
-        \item Fully-Connected Neural Network Library for Regression and Classification in C.
-        \item Backpropagation using Stochastic Gradient Descent in Matrix form.
-        \item Last effort was converting to fixed-point weights, to run on resource constrained microcontrollers, TinyML style.
+        \setlength{\itemsep}{-1pt}
+        \item Building a toy 2nd stage bootloader for an ESP32S3 microcontroller.
+		\item Planning on supporting basic peripheral initialization, and OTA firmware updates if possible.
+		\item Written in C using ESP-IDF HAL library and tooling, as well as Doxygen for code documentation.
     \end{itemize}
+
 
 \end{document}

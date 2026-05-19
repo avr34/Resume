@@ -79,9 +79,8 @@ Highly motivated Computer Engineering student with a strong passion for Embedded
 - Transcribes and summarizes lectures on CPU, 2x faster than human comprehension on average.
 - Integrated with Docker to ensure reproducibility.
 
-#### ***NeuralNet*** - [(*Github*)](https://github.com/avr34/NeuralNet) - *Oct 2024 - Feb 2025*
+#### ***ESP32 2nd Stage Bootloader*** - *May 2026 - Present*
 
-- Fully-Connected Neural Network Library for Regression and Classification in C.
-- A pet project to learn Machine Learning algorithms (minimal external libraries used).
-- Currently uses ReLU activation, more to be added soon.
-- Backpropagation using Stochastic Gradient Descent in Matrix form.
+- Building a toy 2nd stage bootloader for an ESP32S3 microcontroller.
+- Planning on supporting basic peripheral initialization, and OTA firmware updates if possible.
+- Written in C using ESP-IDF HAL library and tooling, as well as Doxygen for code documentation.

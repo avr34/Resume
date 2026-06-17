@@ -10,6 +10,8 @@
   \vspace{-4pt}\scshape\raggedright\Large
 }{}{0em}{}[\vspace{-12pt}\centering\rule{7.5in}{0.4pt}\vspace{-12pt}]
 
+\linespread{0.9}
+
 \pagenumbering{gobble}
 
 % Custom Commands
@@ -42,12 +44,12 @@
 \vspace{-9pt}
 
 % --------------------------SUMMARY--------------------------
-%\section{Summary}
-%    \begin{center}
-%        \begin{tabular}{p{0.96\textwidth}}
-%            Highly motivated Computer Engineering student with a strong passion for Embedded Systems. Seeking an internship/coop opportunity to apply my skills and gain experience with real world engineering. \\
-%        \end{tabular}
-%    \end{center}
+\section{Summary}
+    \begin{center}
+        \begin{tabular}{p{0.96\textwidth}}
+            Motivated Computer Engineering student with a passion for Embedded Systems. Experienced with STM32, ESP32, and RISC-V hardware/software development. Seeking Fall 2026 Co-op or Spring 2027 full time roles. \\
+        \end{tabular}
+    \end{center}
 
 \section{Education}
     \vspace{-5pt}\begin{center}
@@ -58,20 +60,32 @@
     \end{center}
     \vspace{-10pt}\begin{itemize}
         \item {\bf Coursework:} Circuits and Systems 1 \& 2, Microprocessors, Computer Architecture, Applied Machine Learning, Digital Design, and others.
-        \item {\bf Activities:} IEEE-HKN Inductee, 2026 Hackathon Volunteer
+		\item {\bf Activities:} IEEE-HKN Inductee, 2026 Hackathon Volunteer, NJIT Solar Car Contributor (Hardware + Software Team)
     \end{itemize}
 
-    \vspace{-15pt}\begin{center}
-        \begin{tabular}{p{0.99\textwidth}}
-            {\large \bf County College of Morris} (Sept 2022 - May 2023) \hfill Cumulative GPA: 3.83 \\
-            Challenger Program for High School Students \hfill Randolph, NJ
-        \end{tabular}
-    \end{center}
-    \vspace{-10pt}\begin{itemize}
-        \item Completed over two semesters as a part-time student.
-    \end{itemize}
+    % \vspace{-15pt}\begin{center}
+    %     \begin{tabular}{p{0.99\textwidth}}
+    %         {\large \bf County College of Morris} (Sept 2022 - May 2023) \hfill Cumulative GPA: 3.83 \\
+    %         Challenger Program for High School Students \hfill Randolph, NJ
+    %     \end{tabular}
+    % \end{center}
+    % \vspace{-10pt}\begin{itemize}
+    %     \item Completed over two semesters as a part-time student.
+    % \end{itemize}
 
-\section{Experience} \vspace{4pt}
+\section{Technical Experience} \vspace{4pt}
+    \raggedright\begin{tabular}{lr}
+        \parbox[l]{3.65in}{\bf{\large{NJIT Solar Car Member and Contributor}}} &
+        \parbox[r]{3.65in}{\raggedleft May 2026 - Present} \\
+        % \parbox[l]{3.65in}{\href{https://www.mathnasium.com/math-centers/chatham}{\underline{Mathnasium}}} &
+        % \parbox[r]{3.65in}{\raggedleft Chatham, NJ}
+    \end{tabular}
+    \vspace{-10pt}\begin{itemize} 
+        \setlength{\itemsep}{-2pt}
+		\item Co-developed a \href{https://njit-solar-car.github.io/canio}{\underline{4 layer PCB}} for interfacing the NJIT Solar Car's peripherals (lights, indicators, etc) via the CAN Bus.
+		\item Co-developing \href{https://njit-solar-car.github.io/ccu-firmware}{\underline{firmware}} for the Solar Car's STM32F413-based central control unit. Utilizing FreeRTOS for multithreading, and the STM HAL for interfacing peripherals.
+    \end{itemize}
+    
     \raggedright\begin{tabular}{lr}
         \parbox[l]{3.65in}{\bf{\large{Software Engineering Intern}}} &
         \parbox[r]{3.65in}{\raggedleft March 2025 - August 2025} \\
@@ -80,11 +94,11 @@
     \end{tabular}
     \vspace{-10pt}\begin{itemize} 
         \setlength{\itemsep}{-2pt}
-        \item Spearheaded a project developing a full-stack Javascript/Node.js email generator for parents of students at a Mathnasium tutoring center.
-        \item Effectively employs a BNF Grammar, that is used to generate syntactically valid text from a set of customizable templates.
+        \item Developed an email-based report generation and delivery software for a Mathnasium tutoring center.
         \item Currently being used to send 110-150 emails per day, saving 5 centers 30-40 hours a week.
+        \item Effectively employs a BNF Grammar, that is used to generate syntactically valid text from customizable templates.
     \end{itemize}
-    
+
     % \raggedright\begin{tabular}{lr}
     %     \parbox[l]{3.65in}{\bf{\large{Undergraduate Research Assistant}}} &
     %     \parbox[r]{3.65in}{\raggedleft October 2025 - Present} \\
@@ -106,7 +120,18 @@
         \item {\bf Communication Protocols:} UART, I2C, SPI, CAN, USB 2.0, TCP and Socket programming in C/C++ and Go
     \end{itemize}
 
-\section{Projects}
+\section{Projects} \vspace{4pt}
+    \raggedright\begin{tabular}{lr}
+        \parbox[l]{3.65in}{{\bf{\large{8-Channel Logic Analyzer}}} \href{https://github.com/ragusauce4357/ECE692-Final-Project}{(\underline{Github})}} &
+        \parbox[r]{3.65in}{\raggedleft Feb 2026 - May 2026} \\
+    \end{tabular}
+    \begin{itemize} \vspace{-5pt}
+        \setlength{\itemsep}{-2pt}
+        \item USB Logic Analyzer built around an STM32F446, capable of sniffing upto 500kHz signals.
+        \item DMA data acquisition, and run-length encoded data transmission, to optimize byte usage on USB 2.0 FS.
+        \item UART, SPI, I2C, and CAN signal decoding via a custom Go backend.
+    \end{itemize}
+
     \raggedright\begin{tabular}{lr}
         \parbox[l]{3.65in}{{\bf{\large{BitSum Lecture Summarizer}}} \href{https://github.com/avr34/ECE381-Final}{(\underline{GitHub})}} &
         \parbox[r]{3.65in}{\raggedleft Oct 2025 - Dec 2025} \\
@@ -119,24 +144,12 @@
     \end{itemize}
 
     \raggedright\begin{tabular}{lr}
-        \parbox[l]{3.65in}{{\bf{\large{8-Channel Logic Analyzer}}} \href{https://github.com/ragusauce4357/ECE692-Final-Project}{(\underline{Github})}} &
-        \parbox[r]{3.65in}{\raggedleft Feb 2026 - May 2025} \\
-    \end{tabular}
-    \begin{itemize} \vspace{-5pt}
-        \setlength{\itemsep}{-2pt}
-        \item USB Logic Analyzer built around an STM32F446, capable of sniffing upto 500kHz signals.
-        \item DMA data acquisition, and run-length encoded data transmission, to optimize byte usage on USB 2.0 FS.
-        \item UART, SPI, I2C, and CAN signal decoding via a custom Go backend
-        \item GUI with PyQt5 in Python
-    \end{itemize}
-
-    \raggedright\begin{tabular}{lr}
         \parbox[l]{3.65in}{{\bf{\large{SolarVision Autonomous Mower}}} \href{https://github.com/SolarVisionMower/SolarVision}{(\underline{Github})}} &
         \parbox[r]{3.65in}{\raggedleft Sept 2025 - May 2025} \\
     \end{tabular}
     \begin{itemize} \vspace{-5pt}
         \setlength{\itemsep}{-2pt}
-        \item YOLO and LiDAR-based autonomous lawnmower, engineering capstone project. Still in progress
+        \item YOLO and LiDAR-based autonomous lawnmower, engineering capstone project.
         \item Designed a \href{https://github.com/SolarVisionMower/SolarVision/blob/dev/PCBDesign/Hardware/STM32N6_Board/schematic.pdf}{\underline{custom 6-layer PCB}} for STM32N6 MCU, with external SPI NOR Flash and SDRAM Memory through the FMC.
         \item Trained a YOLOv8 Segmentation model on a custom dataset, and exported to C for the STM32N6 NPU, with the ST Edge AI Tool Suite.
         \item LiDAR data acquisition and path planning on an ESP32S3
